@@ -1,7 +1,7 @@
 body {
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 1024px;
 	background-color: #FFFFDB;
 }
 
@@ -14,7 +14,7 @@ h1 {
 	text-shadow: 3px 2px 2px black;
 }
 
-#button {
+li#button {
 	border: 1px solid black;
 	border-radius: 5px;
 	padding: 10px 10px 10px 10px;
@@ -30,10 +30,6 @@ li a {
 li a:hover {
 	color: #00248F;
 }
-
-* {
-	border: 1px solid red;
-}
 	
 p {
 	text-align: center;
@@ -45,14 +41,15 @@ p {
 	background-color: white;
 }
 
-#navbar {
+div.container {
+	width: 600px;
+	margin: 0px auto;
+}
+
+ul#navbar {
 	border: 2px solid black;
 	background-color: #FFCC99;
 	border-radius: 10px;
-}
-
-#buttonarea {
-	margin-left: auto;
-	margin-right: auto;
-	display: inline-block;
+	padding: 10px;
+	text-align: center;
 }
